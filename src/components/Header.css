@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  height: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container p {
+  font-weight: 700;
+  
+  font-size: 30px;
+}
+.header-container ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container ul li {
+  margin-right: 10px;
+}
